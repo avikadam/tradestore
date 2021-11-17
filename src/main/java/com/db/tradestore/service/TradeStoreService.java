@@ -7,6 +7,13 @@ import java.util.Optional;
 import com.db.tradestore.controller.StoreStatus;
 import com.db.tradestore.model.Trade;
 
+/**
+ * Service interface between controller and repository to perform business
+ * processing
+ * 
+ * @author Avinash Kadam
+ *
+ */
 public interface TradeStoreService {
 
 	/**

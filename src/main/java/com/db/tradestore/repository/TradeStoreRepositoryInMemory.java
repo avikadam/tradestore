@@ -11,6 +11,12 @@ import org.springframework.stereotype.Component;
 
 import com.db.tradestore.model.Trade;
 
+/**
+ * In memory implementation of trade store
+ * 
+ * @author Avinash Kadam
+ *
+ */
 @Component
 public class TradeStoreRepositoryInMemory implements TradeStoreRepository {
 
